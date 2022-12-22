@@ -1,0 +1,30 @@
+.main-bg {
+    background-image: url('../img/mainbg.svg');
+    /* propriedade CSS define o tamanho da imagem de fundo do elemento
+    cover
+    Dimensiona a imagem (mantendo sua proporção) para o menor tamanho possível para preencher o contêiner (ou seja: tanto a altura quanto a largura cobrem completamente o contêiner), não deixando nenhum espaço vazio
+    */
+    background-size: cover;
+    /* A propriedade CSS define a posição inicial de cada imagem de plano de fundo */
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    color: var(--primary-color);
+    background: var(--white-color);
+    
+}
+.main-content {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 6.5rem;
+}

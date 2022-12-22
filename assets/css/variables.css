@@ -1,0 +1,8 @@
+/*A propriedade :root permite criar variáveis no css*/
+:root {
+    --primary-color: #03132C;
+    --secondary-color: crimson;
+    --ligth-gray-color: #eee;
+    --white-color: #fff;
+    --gap: 3rem;
+}
